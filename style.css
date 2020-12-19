@@ -1,8 +1,4 @@
 
-.Search{
-   
-}
-
 .searchbar{
     margin: 0 auto;
     display: block;
@@ -13,14 +9,20 @@
     margin-bottom: 30px;
     margin-top: 40px;
 
-   
 }
 
 input[type="search"] {
     font-family: FontAwesome;
     text-indent:10px;
-    font-size: 13px;
-    font0
+    font-size: 18px;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    background-position: right;
+    background-size: 30px 30px;
+    
+
 }
 
 #button-sign-in{
@@ -30,9 +32,17 @@ input[type="search"] {
     display:block;
     display: inline-block;
     text-align: center;
-    vertical-align: top;
-    width: 70px;
-    height: 50px;
+    scale: inherit;
+    background-color:#4285f4;
+    width: 75px;
+    height: 30px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+ 
 
 }
 
@@ -59,11 +69,15 @@ border-radius: 2px;
 
 #left-menu{
     list-style-type: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
 }
 li{
     display: inline;
     font-size: small;
     padding: 10px;
+
 }
 
 .right-menu{
@@ -81,4 +95,19 @@ display: block;
 }
 section{
     padding-top: 200px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    padding: 1px;
+    width: 99%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#rightfooter{
+    float: right;
 }
