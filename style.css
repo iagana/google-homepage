@@ -1,4 +1,6 @@
 
+/* Home Page */
+
 .searchbar{
     margin: 0 auto;
     display: block;
@@ -111,3 +113,5 @@ footer{
 #rightfooter{
     float: right;
 }
+
+
